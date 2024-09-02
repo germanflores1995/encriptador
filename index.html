@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -50,4 +51,57 @@
     <script src="script.js"></script>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Final</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <script src="https://kit.fontawesome.com/b8394c3ab4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contenido">
+        <header class="encabezado">
+            <img src="img/logo.jpg" alt="" class="logo">
+        </header>   
+        <main class="seccion">
+            <div class="ingresarTexto">
+                <p class="indicacion">Ingresa el texto que deseas encriptar o desencriptar.</p>
+                <textarea class="espacioDeTexto" id="" placeholder="Ingrese el texto aqui"></textarea>
+                
+                <p class="camposAdmitidos"><i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos.</p>
+                <div class="botones">
+                    <button class="boton encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="boton desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+                
+            </div>  
+            <div class="campoTexto">
+                <p class="noHayMensaje">Ningún mensaje fue encontrado</p>
+                <textarea name="" id="" readonly class="espacioDeTexto_imagen"></textarea>
+                <div>
+                    <button class="boton copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+                <!-- <img src="asses/busca.jpg" alt=""> -->
+                
+                
+            </div> 
+        </main>
+        <footer>
+            <div class="contacto">
+                <h2 class="tituloRedes">Desarrollado por Germán Emiliano Flores</h2>
+                <a href="https://github.com/germanflores1995" class="linkRedes">
+                    <img src="img/github.png" alt="Github"></a>
+                <a href="https://www.linkedin.com/in/floresgerman/" class="linkRedes">
+                    <img src="img/linkedin.png" alt="Linkedin"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+>>>>>>> e9e34efff1ecd2a93ab421570e064f6a65fc56ae
 </html>

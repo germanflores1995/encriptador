@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --fuentePrincipal: monospace;
     --fondo: #F4FFFD;
@@ -242,3 +243,190 @@ body {
         font-size: 0.5rem;
     }
 }
+=======
+:root {
+    --fuentePrincipal: monospace;
+    --fondo:#F4FFFD;
+    --colorTexto:#898980;
+    --colorDesencriptar:#011936;
+    --colorCopiar:#ED254E;
+    --colorTerciario:#F9DC5C;
+    --colorTextoBoton:#465362;
+    --colorEncriptar :#0C7C59;
+}
+body {
+    box-sizing: border-box;
+    font-family: var(--fuentePrincipal);
+    background-color: var(--fondo);
+}
+.encabezado {
+    margin: 3% ;
+}
+
+.logo {
+    width: 1rem;
+}
+
+.seccion {
+    display: flex;
+   
+    margin: 0 10% ;
+    /* justify-content: space-around; */
+}
+
+.ingresarTexto {
+    width: 70%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.espacioDeTexto {
+    width: 70%; 
+    height: 300px;
+    background-color: #1e1e1e; 
+    color: var(--colorTerciario);
+    /* color: #00ff00; */
+    /* font-family: var(--fuentePrincipal); */
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: none; 
+    outline: none; 
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); 
+    text-transform: lowercase;
+}  
+
+.espacioDeTexto:focus{
+    box-shadow: 0 0 10px var(--colorTerciario); 
+}
+
+.camposAdmitidos {
+    font-size: 0.8rem;
+    color: var(--colorTexto);
+    
+}
+
+.boton {
+    text-decoration: none;
+    width: 250px;
+    padding: 10px 20px;
+    border: 2px solid var(--colorTexto);
+    border-radius: 5px;
+    color: var(--fondo);
+}
+
+.boton.boton:hover {
+    background-color: var(--colorTerciario);
+    padding:11px 21px ;
+    color: var(--colorTextoBoton);
+}
+
+.encriptar {
+    background-color: var(--colorEncriptar);
+}
+
+.desencriptar {
+    background-color: var(--colorDesencriptar);
+}
+
+.contacto{
+    background-color: var(--colorTextoBoton);
+    color: var(--fondo);
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    
+}
+
+.linkRedes {
+    text-decoration: none;
+    color: var(--fondo);
+    margin-left: 20px;
+    align-content: center;
+}
+
+.noHayMensaje {
+    color: var(--colorTextoBoton);
+    font-size: 1rem;
+}
+
+.indicacion {
+    color: var(--colorTexto);
+    margin: 0;
+    font-size: 1rem;
+   
+    
+
+}
+
+.copiar {
+    background-color: var(--colorCopiar);
+}
+
+.espacioDeTexto_imagen {
+    background: var(--colorTexto);
+    background-image: url(img/busca.jpg);
+    background-repeat: no-repeat;
+    
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: none; 
+    outline: none; 
+    margin-bottom: 70px;
+    text-transform: lowercase;
+    width: 70%; 
+    height: 270px;
+    color: var(--colorTerciario);
+    
+    
+}
+
+.imagen:focus {
+    box-shadow: none;
+}
+
+.campoTexto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+/* .contenido {
+    background-color: aqua;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.seccion {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ingresarTexto {
+    width: 50%;
+    display: flex;
+    background-color: yellow;
+    flex-direction: column;
+    align-content: center;
+    padding: 5%;
+    gap: 10px;
+    
+    
+}
+
+
+
+/* .campoTexto:focus {
+ 
+>>>>>>> e9e34efff1ecd2a93ab421570e064f6a65fc56ae
